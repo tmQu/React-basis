@@ -1,13 +1,15 @@
 
 
 import Heading from './Heading'
-
+import Bag from './Bag'
 function App() {
   return (
     <div>
-      <h1>this is the starting code</h1>
+      <Bag>
+        <Heading content="This is a heading" />
+        <Heading content="This is second heading" />
 
-      <Heading />
+      </Bag>
     </div>
     
   )

@@ -1,7 +1,7 @@
-function Heading()
+function Heading(props)
 {
   return (
-    <h1>This is a h1 heading</h1>
+    <h1>{props.content}</h1>
   );
 }
 
